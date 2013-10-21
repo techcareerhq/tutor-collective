@@ -1,0 +1,34 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which 
+* will include all the files listed below.
+*
+* Any CSS and SCSS file within this directory, lib/assets/stylesheets, 
+* vendor/assets/stylesheets, or vendor/assets/stylesheets of plugins, 
+* if any, can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear
+* at the top of the compiled file, but it's generally better to create a new
+* file per style scope.
+*
+
+*= require_self
+*= require_tree
+*/
+@import "bootstrap";
+@import "bootstrap-responsive";
+
+@media (min-width: 767px) {
+  body { padding-top: 60px; }
+}
+
+  @media only screen and (max-width: 480px) {
+  #wepay-iframe-div { width: 100%;}
+  #wepay-iframe-div #wepay_checkout_iframe { width: 100%; max-width: 330px; height: 520px;}
+}
+
+a.btn { color: #FFF; }
+a.btn:visited { color: #FFF; }
+
+div.navbar div.container a { color: #EEE}
+
+#buy-now-button {margin: 20px 0px ;}

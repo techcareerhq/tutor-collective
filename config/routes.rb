@@ -1,4 +1,18 @@
 Myapp::Application.routes.draw do
+  get "sessions/new"
+
+  resources :tutors
+  root :to => "welcome#index"
+
+  get "welcome/index"
+
+  match 'register' => 'tutors#new', :as => :register
+
+  match '/login' => 'sessions#new', :as => :login
+  match '/logout' => 'sessions#destroy', :as => :logout
+  post '/sessions/create' => 'sessions#create'
+
+  match '/tutors/:action(/:tutor_id)', :controller => 'tutors'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

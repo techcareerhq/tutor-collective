@@ -1,0 +1,11 @@
+<%= form_tag "/sessions/create" do %>
+
+  <%= label_tag :email %>
+  <%= email_field_tag :email, params[:email] %>
+
+  <%= label_tag :password %>
+  <%= password_field_tag :password, params[:password] %>
+    
+  <%= submit_tag "Login", :class => "btn btn-primary" %>
+
+<% end %>

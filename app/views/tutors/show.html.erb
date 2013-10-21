@@ -1,0 +1,33 @@
+<h1><%= @tutor.name %></h1>
+
+<% if (@tutor.has_wepay_account? && !@is_admin) %>
+<br />
+<%= link_to "Buy #{} Now!", "/farmers/buy/#{@tutor.id}", :class => 'btn btn-danger btn-large', :id => 'buy-now-button' %>
+<% end %>
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @tutor.name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @tutor.email %>
+</p>
+
+
+
+<%= link_to 'Edit', edit_tutor_path(@tutor) %> |
+<%= link_to 'Back', tutors_path %>
+<% if (@is_admin) %>
+  <%= link_to 'Edit', edit_tutor_path(@tutor) %>
+<% end %>
+<% if (@is_admin && (!@tutor.has_valid_wepay_access_token? || !@tutor.has_wepay_account?)) %>
+  <p>
+    <b>Please create an account to manage your money: </b>
+  <% redirect_uri = url_for(:controller => 'tutors', :action => 'oauth', :tutor_id => @tutor.id, :host => request.host_with_port) %>
+    <a class="btn btn-primary" href="<%= @tutor.wepay_authorization_url(redirect_uri) %>">Click here to create your account</a>
+  </p>
+<% end %>
