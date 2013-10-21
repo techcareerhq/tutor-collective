@@ -6,8 +6,6 @@ Myapp::Application.routes.draw do
     }
   end
 
-  match '*path' => redirect('/')
-  
   get "sessions/new"
 
   resources :tutors
