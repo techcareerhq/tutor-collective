@@ -13,8 +13,8 @@ Mac Instructions
 1. Install RVM (Ruby Version Manager) type this in terminal: \curl -L https://get.rvm.io | bash)
   *Type the following commands into your terminal:
     `rvm get head && rvm reload`
-  	`rvm install 1.9.3`
-		`rvm use 1.9.3`
+    `rvm install 1.9.3`
+    `rvm use 1.9.3`
 2. [Install Git](http://git-scm.com/download/mac)
 3. [Generate SSH Keys](https://help.github.com/articles/generating-ssh-keys#platform-mac)
 4. [Create GitHub Account - Sign Up](https://github.com/)
