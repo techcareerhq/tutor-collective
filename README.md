@@ -20,7 +20,7 @@ If you need help getting set up we've attached [Setup Instructions](https://gith
 We do our best to fully describe the features and bug fixes that need to be implemented. If you have any questions about the specifics of a requirement, let us know. To contribute we suggest you fork and send pull requests and instructions of how to do this can be found [here](https://help.github.com/articles/fork-a-repo)
 
 1. Fork our branch
-2. Clone our branch
+2. Clone the new repository
 3. Pick an issue and code one of our features or bugs
 4. Submit a [pull request](https://help.github.com/articles/using-pull-requests)
     * Please use consistent naming convention as outlined below to help use keep track of the pull request
