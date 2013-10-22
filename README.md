@@ -33,6 +33,8 @@ The following steps will help you get a version of the site running on your comp
 
 7. Move into the project directory
     `cd tutor-collective`
+8. Install the required libraries for the project
+    `bundle install`
 8. Set up database: `rake db:migrate`
 9. Start the server: `rails s`
 10. Navigate to the site in your browser: localhost:3000
