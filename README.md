@@ -49,6 +49,17 @@ We hope to use this project to teach you how to become an engineer that can exce
 7. Navigate to the site in your browser: localhost:3000
 
 #### IDE Instructions
-You will be writing code using a text editor. We recommend SublimeText.
+You will be writing code using a text editor. We recommend [SublimeText](http://www.sublimetext.com/).
 
 ##Contribution Instructions
+We do our best to fully describe the features and bug fixes that need to be implemented. If you have any questions about the specifics of a requirement, let us know.
+
+1. Create a new branch on Github with the name of the feature or bug that your are working on [info here](https://github.com/blog/1377-create-and-delete-branches)
+2. Checkout the code from this branch
+3. Commit your code to the branch
+4. Submit a pull request to the master branch
+
+###Design Guidelines
+The color palette for the overall site is available here: http://www.colourlovers.com/palette/3087487/BlueC 
+We'll try to use these colors whenver possible. For calls to action or other elements that require a color outside of the palette, we'll defer to [Boostrap's default button styles](http://getbootstrap.com/2.3.2/base-css.html#buttons)
+
