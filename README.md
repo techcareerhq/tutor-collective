@@ -8,17 +8,20 @@ Tutor Collective is a collaborative project to build the world's best way to fin
 We hope to use this project to teach you how to become an engineer that can excel in a tech company.
 
 ## Getting Started
+The following steps will help you get a version of the site running on your computer. You can use this to make changes and edit the code before submitting a new feature or bug fix to the repository.
 
-*Type the command in the blocks into your terminal/command window:*
+*Type the command in the blocks into your terminal/command window*
 
 #### Mac Instructions
 
-1. Install RVM (Ruby Version Manager) type this in terminal: \curl -L https://get.rvm.io | bash)
+1. Install RVM (Ruby Version Manager) type this in terminal: 
+
+    `\curl -L https://get.rvm.io | bash)`
     `rvm get head && rvm reload`
 
     `rvm install 1.9.3`
     
-    `rvm use 1.9.3`
+    `rvm --default use 1.9.3`
     
 2. [Install Git](http://git-scm.com/download/mac)
 3. [Generate SSH Keys](https://help.github.com/articles/generating-ssh-keys#platform-mac)
@@ -28,9 +31,13 @@ We hope to use this project to teach you how to become an engineer that can exce
 
     `git clone git@github.com:techcareerhq/tutor-collective.git`
 
-7. Set up database: rake db:migrate 
-8. Start the server: rails s
-9. Navigate to the site in your browser: localhost:3000
+7. Move into the project directory
+    `cd tutor-collective`
+8. Install the required libraries for the project
+    `bundle install`
+8. Set up database: `rake db:migrate`
+9. Start the server: `rails s`
+10. Navigate to the site in your browser: localhost:3000
 
 #### Windows Instructions
 
