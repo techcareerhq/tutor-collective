@@ -14,10 +14,10 @@ You need the following:
 * GitHub account / git
 * an IDE like [SublimeText](http://www.sublimetext.com/)
 
-If you need help getting set up we've attached Setup Instructions. If you need additional help please feel free to contact us at my@techcareerhq.com and we will help you get set up.
+If you need help getting set up we've attached [Setup Instructions](https://github.com/techcareerhq/tutor-collective/blob/master/Setup%20Instructions.md). If you need additional help please feel free to contact us at my@techcareerhq.com and we will help you get set up.
 
 ##Contribution Instructions
-We do our best to fully describe the features and bug fixes that need to be implemented. If you have any questions about the specifics of a requirement, let us know. To contribute we suggest you fork and send pull requests and instructions of how to do this can be found [here]( [info here](https://help.github.com/articles/fork-a-repo).
+We do our best to fully describe the features and bug fixes that need to be implemented. If you have any questions about the specifics of a requirement, let us know. To contribute we suggest you fork and send pull requests and instructions of how to do this can be found [here](https://help.github.com/articles/fork-a-repo)
 
 1. Fork our branch
 2. Clone our branch
