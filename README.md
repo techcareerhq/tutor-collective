@@ -30,9 +30,8 @@ We do our best to fully describe the features and bug fixes that need to be impl
 Our issues page contains labels to identify type of coding you have to do, a difficulty level from 1 star to 5 stars, and a key to keep track of the issues.
 * F - Feature
 * B - Bug
-* F1 - Feature #1
-* F1.2 - Feature #1 Part 2
-* B2 - Bug #2
+* e.g. F - Page Title (A feature for the page title)
+* e.g. B - Button margin issue (a bug fix for a button margin)
 
 ###Design Guidelines
 The color palette for the overall site is available here: http://www.colourlovers.com/palette/3087487/BlueC 
