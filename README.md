@@ -8,63 +8,31 @@ Tutor Collective is a collaborative project to build the world's best way to fin
 We hope to use this project to teach you how to become an engineer that can excel in a tech company.
 
 ## Getting Started
-The following steps will help you get a version of the site running on your computer. You can use this to make changes and edit the code before submitting a new feature or bug fix to the repository.
 
-*Type the command in the blocks into your terminal/command window*
+You need the following:
+* Ruby 1.9.3
+* GitHub account / git
+* an IDE like [SublimeText](http://www.sublimetext.com/)
 
-#### Mac Instructions
-
-1. Install RVM (Ruby Version Manager) type this in terminal: 
-
-    `\curl -L https://get.rvm.io | bash)`
-    `rvm get head && rvm reload`
-
-    `rvm install 1.9.3`
-    
-    `rvm --default use 1.9.3`
-    
-2. [Install Git](http://git-scm.com/download/mac)
-3. [Generate SSH Keys](https://help.github.com/articles/generating-ssh-keys#platform-mac)
-4. [Create GitHub Account - Sign Up](https://github.com/)
-5. [Add SSH Key to GitHub Account](https://help.github.com/articles/generating-ssh-keys#step-3-add-your-ssh-key-to-github)
-6. Download the code (clone the repository): 
-
-    `git clone git@github.com:techcareerhq/tutor-collective.git`
-
-7. Move into the project directory
-    `cd tutor-collective`
-8. Install the required libraries for the project
-    `bundle install`
-8. Set up database: `rake db:migrate`
-9. Start the server: `rails s`
-10. Navigate to the site in your browser: localhost:3000
-
-#### Windows Instructions
-
-1. [Install Ruby and Rails](http://installfest.railsbridge.org/installfest/windows)
-2. In terminal (download the code): 
-
-    `git clone git@github.com:techcareerhq/tutor-collective.git`
-
-3. Go into the tutor-collective directory (in the command line):
-
-    `cd tutor-collective`
-
-4. Install gems: bundle install
-5. Set up database: rake db:migrate 
-6. Start the server: rails s
-7. Navigate to the site in your browser: localhost:3000
-
-#### IDE Instructions
-You will be writing code using a text editor. We recommend [SublimeText](http://www.sublimetext.com/).
+For a quick install of a development setup we recommend [BitNami](http://bitnami.com/stack/ruby/installer). But, we have also attached manual instructions [Setup Instructions](https://github.com/techcareerhq/tutor-collective/blob/master/Setup%20Instructions.md). If you need additional help please feel free to contact us at my@techcareerhq.com and we will help you get set up.
 
 ##Contribution Instructions
-We do our best to fully describe the features and bug fixes that need to be implemented. If you have any questions about the specifics of a requirement, let us know.
+We do our best to fully describe the features and bug fixes that need to be implemented. If you have any questions about the specifics of a requirement, let us know. To contribute we suggest you fork and send pull requests and instructions of how to do this can be found [here](https://help.github.com/articles/fork-a-repo)
 
-1. Create a new branch on Github with the name of the feature or bug that your are working on [info here](https://github.com/blog/1377-create-and-delete-branches)
-2. Checkout the code from this branch
-3. Commit your code to the branch
-4. Submit a pull request to the master branch
+1. Fork our branch
+2. Clone the new repository
+3. Pick an issue and code one of our features or bugs
+4. Submit a [pull request](https://help.github.com/articles/using-pull-requests)
+    * Please use consistent naming conventions as outlined below to help use keep track of the pull requests
+    * Example: F10.3 - Fixed login authetnication system
+
+##Legend
+Our issues page contains labels to identify type of coding you have to do, a difficulty level from 1 star to 5 stars, and a key to keep track of the issues.
+* F - Feature
+* B - Bug
+* F1 - Feature #1
+* F1.2 - Feature #1 Part 2
+* B2 - Bug #2
 
 ###Design Guidelines
 The color palette for the overall site is available here: http://www.colourlovers.com/palette/3087487/BlueC 
