@@ -1,4 +1,4 @@
-class TutorsController < ApplicationController
+  class TutorsController < ApplicationController
   # GET /tutors
   # GET /tutors.json
   def index
